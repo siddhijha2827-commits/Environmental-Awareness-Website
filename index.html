@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EcoLife | Environmental Awareness</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">🌿 EcoLife</a>
+
+            <button class="menu-btn" id="menuBtn"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#issues">Issues</a></li>
+                <li><a href="#waste">Waste Management</a></li>
+                <li><a href="#tips">Eco Tips</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+
+            <button id="themeBtn" class="theme-btn"
+                    aria-label="Toggle dark mode">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="tagline">SMALL STEPS, BIG CHANGE</p>
+
+                <h1>Protect Nature.<br>
+                    <span>Preserve Our Future.</span>
+                </h1>
+
+                <p>
+                    Our planet is our home. Let's protect it through
+                    sustainable living, waste reduction and eco-friendly
+                    choices.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#tips" class="btn">Explore Eco Tips</a>
+                    <a href="#about" class="btn btn-outline">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Environmental Facts -->
+        <section class="facts">
+            <div class="fact">
+                <span>🌳</span>
+                <h3>Protect Forests</h3>
+                <p>Preserve trees and natural habitats.</p>
+            </div>
+
+            <div class="fact">
+                <span>💧</span>
+                <h3>Save Water</h3>
+                <p>Use water responsibly every day.</p>
+            </div>
+
+            <div class="fact">
+                <span>♻️</span>
+                <h3>Reduce Waste</h3>
+                <p>Reuse materials and recycle correctly.</p>
+            </div>
+
+            <div class="fact">
+                <span>☀️</span>
+                <h3>Save Energy</h3>
+                <p>Choose efficient and cleaner energy.</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about" id="about">
+            <div class="about-image">
+                <img
+                    src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1000&q=80"
+                    alt="Sunlight shining through a green forest"
+                    loading="lazy">
+            </div>
+
+            <div class="about-content">
+                <p class="tagline">ABOUT ECOLIFE</p>
+                <h2>A Greener Planet Starts With Us</h2>
+
+                <p>
+                    Environmental awareness means understanding how our
+                    actions affect nature and learning how to protect
+                    the world around us.
+                </p>
+
+                <p>
+                    Air pollution, plastic waste, deforestation and climate
+                    change threaten ecosystems. By making responsible
+                    choices, we can help build a cleaner and healthier
+                    future.
+                </p>
+
+                <a href="#issues" class="text-link">
+                    Discover the challenges →
+                </a>
+            </div>
+        </section>
+
+        <!-- Environmental Issues -->
+        <section class="section issues" id="issues">
+            <div class="section-heading">
+                <p class="tagline">UNDERSTAND THE CHALLENGES</p>
+                <h2>Environmental Issues</h2>
+                <p>Learn about some major threats to our planet.</p>
+            </div>
+
+            <div class="card-grid">
+                <article class="issue-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?auto=format&fit=crop&w=700&q=80"
+                        alt="Industrial pollution and emissions"
+                        loading="lazy">
+                    <div class="card-content">
+                        <h3>Air Pollution</h3>
+                        <p>
+                            Smoke, harmful gases and tiny particles can
+                            affect human health and the environment.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="issue-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=700&q=80"
+                        alt="Green trees in a forest"
+                        loading="lazy">
+                    <div class="card-content">
+                        <h3>Deforestation</h3>
+                        <p>
+                            Removing forests destroys habitats and
+                            reduces biodiversity.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="issue-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?auto=format&fit=crop&w=700&q=80"
+                        alt="Environmental pollution"
+                        loading="lazy">
+                    <div class="card-content">
+                        <h3>Climate Change</h3>
+                        <p>
+                            Rising global temperatures are changing
+                            weather patterns and ecosystems.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Waste Management -->
+        <section class="section waste" id="waste">
+            <div class="section-heading">
+                <p class="tagline">MAKE WASTE MATTER LESS</p>
+                <h2>The 3 Rs of Waste Management</h2>
+                <p>Simple principles for reducing the waste we create.</p>
+            </div>
+
+            <div class="three-rs">
+                <article class="r-card">
+                    <div class="r-icon">♻️</div>
+                    <h3>Reduce</h3>
+                    <p>
+                        Buy only what you need. Avoid single-use plastics
+                        and unnecessary packaging.
+                    </p>
+                </article>
+
+                <article class="r-card">
+                    <div class="r-icon">🔄</div>
+                    <h3>Reuse</h3>
+                    <p>
+                        Reuse bags, bottles and containers instead of
+                        throwing them away after one use.
+                    </p>
+                </article>
+
+                <article class="r-card">
+                    <div class="r-icon">🗑️</div>
+                    <h3>Recycle</h3>
+                    <p>
+                        Separate recyclable materials and follow your
+                        local waste collection guidelines.
+                    </p>
+                </article>
+            </div>
+
+            <div class="waste-note">
+                <strong>Remember:</strong>
+                Recycling helps, but reducing consumption and reusing
+                items can prevent waste in the first place.
+            </div>
+        </section>
+
+        <!-- Eco-Friendly Tips -->
+        <section class="section tips" id="tips">
+            <div class="section-heading">
+                <p class="tagline">LIVE A LITTLE GREENER</p>
+                <h2>Everyday Eco-Friendly Habits</h2>
+                <p>Small actions can become meaningful habits.</p>
+            </div>
+
+            <div class="tips-grid">
+                <div class="tip">
+                    <span>🚲</span>
+                    <div>
+                        <h3>Choose Greener Travel</h3>
+                        <p>Walk, cycle or use public transport when practical.</p>
+                    </div>
+                </div>
+
+                <div class="tip">
+                    <span>💡</span>
+                    <div>
+                        <h3>Save Electricity</h3>
+                        <p>Switch off unused lights and appliances.</p>
+                    </div>
+                </div>
+
+                <div class="tip">
+                    <span>🛍️</span>
+                    <div>
+                        <h3>Carry Reusable Bags</h3>
+                        <p>Keep a reusable bag handy while shopping.</p>
+                    </div>
+                </div>
+
+                <div class="tip">
+                    <span>🌱</span>
+                    <div>
+                        <h3>Grow More Plants</h3>
+                        <p>Care for native plants suited to your area.</p>
+                    </div>
+                </div>
+
+                <div class="tip">
+                    <span>🚰</span>
+                    <div>
+                        <h3>Conserve Water</h3>
+                        <p>Turn off taps when not needed and fix leaks.</p>
+                    </div>
+                </div>
+
+                <div class="tip">
+                    <span>🥕</span>
+                    <div>
+                        <h3>Prevent Food Waste</h3>
+                        <p>Plan meals and store food properly.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Quiz -->
+        <section class="section quiz-section" id="quiz">
+            <div class="quiz-box">
+                <p class="tagline">TEST YOUR KNOWLEDGE</p>
+                <h2>Eco Awareness Quiz 🌎</h2>
+                <p>Which of the following is the best way to reduce waste?</p>
+
+                <form id="quizForm">
+                    <label class="quiz-option">
+                        <input type="radio" name="answer" value="a">
+                        Throw everything into one bin
+                    </label>
+
+                    <label class="quiz-option">
+                        <input type="radio" name="answer" value="b">
+                        Use disposable items whenever possible
+                    </label>
+
+                    <label class="quiz-option">
+                        <input type="radio" name="answer" value="c">
+                        Reduce consumption and reuse items
+                    </label>
+
+                    <button type="submit" class="btn">
+                        Check Answer
+                    </button>
+                </form>
+
+                <p id="quizResult" class="message" aria-live="polite"></p>
+            </div>
+        </section>
+
+        <!-- Newsletter / Registration Form -->
+        <section class="section newsletter" id="join">
+            <div class="newsletter-content">
+                <p class="tagline">BE PART OF THE CHANGE</p>
+                <h2>Join the Green Community</h2>
+                <p>
+                    Register your interest in learning more about
+                    sustainability and eco-friendly practices.
+                </p>
+
+                <form id="registerForm" class="register-form">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input
+                            type="text"
+                            id="fullName"
+                            name="fullName"
+                            placeholder="Enter your name"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required>
+                    </div>
+
+                    <label class="consent">
+                        <input type="checkbox" id="consent" required>
+                        I agree to participate in eco-awareness activities.
+                    </label>
+
+                    <button type="submit" class="btn">
+                        Register Now
+                    </button>
+                </form>
+
+                <p id="formMessage" class="message" aria-live="polite"></p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#home" class="logo">🌿 EcoLife</a>
+        <p>Protecting nature begins with the choices we make.</p>
+        <p class="copyright">
+            &copy; <span id="year"></span> EcoLife Environmental Awareness
+        </p>
+    </footer>
+
+</body>
+</html>
+
+    
+</body>
+</html>
